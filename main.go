@@ -1,15 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
+
+func calCircleArea(radius float32) float32 {
+	return radius * radius * math.Pi
+}
 
 func main() {
-	var a string
-	var b bool
-	var c float64
-	var d int
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(c)
-	fmt.Println(d)
-	fmt.Println(Man)
+	fmt.Println(calCircleArea(50))
 }
