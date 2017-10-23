@@ -3,7 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	for i := 0; i < 100; i++ {
-		fmt.Printf("%d \t %b \t %x \n", i, i, i)
-	}
+	var a string
+	var b bool
+	var c float64
+	var d int
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
 }
