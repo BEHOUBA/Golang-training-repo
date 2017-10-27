@@ -3,8 +3,12 @@ package main
 import "fmt"
 
 func main() {
+	x := 39
+	var pt *int
+	pt = &x
+	//var pt2 **int
 
-	for  {
-		fmt.Println("hello Manasse")
-	}
+	///pt2 = &pt
+
+	fmt.Printf("Value of pointer initialized is: %d", *pt)
 }
